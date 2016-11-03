@@ -299,10 +299,8 @@ you should place your code here."
 
   (add-hook 'php-mode-hook 'php-enable-wordpress-coding-style)
   (add-hook 'php-mode-hook 'indent-with-tabs)
-  (add-hook 'php-mode-hook '(setq helm-dash-docsets '("Php")))
 
   (add-hook 'react-mode-hook 'indent-with-tabs)
-  (add-hook 'react-mode-hook '(setq helm-dash-docsets '("React")))
 
   (add-hook 'js-mode-hook 'indent-with-tabs)
 
